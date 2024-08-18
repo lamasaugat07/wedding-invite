@@ -209,6 +209,13 @@ hero p {
   font-weight: 300;
 }
 
+.wishes h3{
+  color: var(--brown);
+  font-family: "Dancing Script", cursive;
+  font-size: 3rem;
+  font-weight: 700;
+}
+
 .card-body h4 {
   color: #444;
   font-weight: 500;
@@ -633,6 +640,65 @@ footer li {
     height: 500px;
   }
 }
+
+/* Custom Alert */
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed;
+  z-index: 1;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+#alertMessage {
+  color: #903622;
+  margin-bottom: 20px;
+}
+
+.modal-content {
+  background-color: #d4d1d1;
+  margin: 15% auto;
+  padding: 20px;
+  border-radius: 10px;
+  width: 80%;
+  max-width: 300px;
+  text-align: center;
+}
+
+.close-btn {
+  color: #aaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+  cursor: pointer;
+  position: absolute;
+  right: 10px; /* Aligns the close button to the right */
+  top: 10px;   /* Adjusts the vertical position */
+}
+
+.close-btn:hover,
+.close-btn:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+button {
+  background-color: #007bff;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
 
 /* Mobile */
 @media (max-width: 576px) {

@@ -401,6 +401,14 @@ hero p {
   border: 1px solid white;
 }
 
+input.invalid {
+  border: 2px solid red;
+}
+
+input.valid {
+  border: 2px solid black;
+}
+
 footer {
   padding: 3rem;
   background-color: var(--brown);
